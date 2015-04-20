@@ -1,0 +1,4 @@
+compile-cache/
+.apm/
+.node-gyp/
+packages/
