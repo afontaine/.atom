@@ -1,5 +1,4 @@
 "*":
-  "autoclose-html": {}
   linter: {}
   minimap:
     plugins:
@@ -7,6 +6,7 @@
       selection: true
       "highlight-selected": true
       "find-and-replace": true
+    absoluteMode: true
   "exception-reporting":
     userId: "d3b9acef-e2f1-9921-109d-3b97e974183c"
   welcome:
@@ -17,13 +17,6 @@
       "one-dark-ui"
       "monokai"
     ]
-    disabledPackages: [
-      "atom-scroller"
-      "tabs"
-      "tree-view"
-      "minimap-highlight-selected"
-      "highlight-selected"
-    ]
     autoHideMenuBar: true
   "git-plus":
     openInPane: false
@@ -31,25 +24,22 @@
     invisibles: {}
     fontFamily: "Inconsolata for Powerline"
     showIndentGuide: true
-    fontSize: 20
+    fontSize: 18
   autosave:
     enabled: true
   "autocomplete-plus":
-    navigateCompletions: "ctrl-p,ctrl-n"
     includeCompletionsFromAllBuffers: true
+    confirmCompletion: "tab"
   "linter-tslint": {}
   "remote-edit": {}
   "atom-beautify":
     _analyticsUserId: "e9a5da2e-7d4f-42d0-9c47-5f6513663cc2"
   tabs:
     showIcons: true
-  "tree-view":
-    hideVcsIgnoredFiles: false
-    hideIgnoredNames: false
-    showOnRightSide: false
-    sortFoldersBeforeFiles: true
+    usePreviewTabs: true
   "linter-rubocop":
     rubocopExecutablePath: "/home/andrew/.rvm/gems/ruby-2.2.1/bin/rubocop"
+  "SFTP-deployment": {}
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 4
