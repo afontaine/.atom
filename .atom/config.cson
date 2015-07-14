@@ -7,6 +7,7 @@
       selection: true
       "highlight-selected": true
       "find-and-replace": true
+      codeglance: true
   "exception-reporting":
     userId: "d3b9acef-e2f1-9921-109d-3b97e974183c"
   welcome:
@@ -19,8 +20,6 @@
     ]
     disabledPackages: [
       "atom-scroller"
-      "tabs"
-      "tree-view"
     ]
     autoHideMenuBar: true
   "git-plus":
@@ -29,6 +28,7 @@
     invisibles: {}
     fontFamily: "Inconsolata for Powerline"
     showIndentGuide: true
+    fontSize: 16
   autosave:
     enabled: true
   "autocomplete-plus":
@@ -40,42 +40,41 @@
     _analyticsUserId: "e9a5da2e-7d4f-42d0-9c47-5f6513663cc2"
   tabs:
     showIcons: true
-  "tree-view":
-    hideVcsIgnoredFiles: false
-    hideIgnoredNames: false
-    showOnRightSide: false
-    sortFoldersBeforeFiles: true
+    enableVcsColoring: true
+    usePreviewTabs: true
   "linter-rubocop":
     rubocopExecutablePath: "D:\\Ruby21-x64\\bin\\rubocop"
+  "tree-view":
+    hideVcsIgnoredFiles: true
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 4
-".erb.html.text":
+".html.ruby.text":
   editor:
     tabLength: 2
-".ruby.source.sql":
+".basic.html.text":
+  editor:
+    tabLength: 2
+    preferredLineLength: 120
+".python.text.traceback":
   editor:
     tabLength: 4
 ".console.python.text":
   editor:
     tabLength: 4
-".python.text.traceback":
+".ruby.source.sql":
   editor:
     tabLength: 4
-".basic.html.text":
+".erb.html.text":
   editor:
     tabLength: 2
-    preferredLineLength: 120
-".html.ruby.text":
+".cpp.source":
   editor:
-    tabLength: 2
+    tabLength: 8
+".python.source":
+  editor:
+    preferredLineLength: 79
 ".java.source":
   editor:
     preferredLineLength: 120
     tabLength: 4
-".python.source":
-  editor:
-    preferredLineLength: 79
-".cpp.source":
-  editor:
-    tabLength: 8
