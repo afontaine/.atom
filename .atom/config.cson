@@ -7,6 +7,9 @@
       "highlight-selected": true
       "find-and-replace": true
       codeglance: true
+      "minimap-hide": true
+      pigments: true
+    absoluteMode: true
   "exception-reporting":
     userId: "d3b9acef-e2f1-9921-109d-3b97e974183c"
   welcome:
@@ -14,15 +17,15 @@
   core:
     projectHome: "D:\\Andrew\\Repos"
     themes: [
-      "one-dark-ui"
-      "monokai"
+      "atom-material-ui"
+      "base16-syntax"
     ]
     autoHideMenuBar: true
   "git-plus":
     openInPane: false
   editor:
     invisibles: {}
-    fontFamily: "Inconsolata for Powerline"
+    fontFamily: "Inconsolata for Powerline PNFT"
     showIndentGuide: true
     fontSize: 16
   autosave:
@@ -42,6 +45,8 @@
     rubocopExecutablePath: "D:\\Ruby21-x64\\bin\\rubocop"
   "tree-view":
     hideVcsIgnoredFiles: true
+  "base16-syntax":
+    scheme: "Monokai"
 ".js.rails.source source.jquery.js":
   editor:
     tabLength: 4
