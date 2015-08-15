@@ -1,0 +1,5 @@
+'atom-text-editor:not(mini).autocomplete-active':
+  'up': 'unset!'
+  'down': 'unset!'
+  'ctrl-p': 'core:move-up'
+  'ctrl-n': 'core:move-down'

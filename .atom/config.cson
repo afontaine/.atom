@@ -1,5 +1,4 @@
 "*":
-  "autoclose-html": {}
   linter: {}
   minimap:
     plugins:
@@ -18,9 +17,6 @@
       "one-dark-ui"
       "monokai"
     ]
-    disabledPackages: [
-      "atom-scroller"
-    ]
     autoHideMenuBar: true
   "git-plus":
     openInPane: false
@@ -32,8 +28,8 @@
   autosave:
     enabled: true
   "autocomplete-plus":
-    navigateCompletions: "ctrl-p,ctrl-n"
     includeCompletionsFromAllBuffers: true
+    confirmCompletion: "tab"
   "linter-tslint": {}
   "remote-edit": {}
   "atom-beautify":
