@@ -1,12 +1,15 @@
 "*":
-  linter: {}
   minimap:
     plugins:
       "git-diff": true
       selection: true
       "highlight-selected": true
       "find-and-replace": true
+      pigments: true
+      codeglance: true
+      "minimap-hide": true
     absoluteMode: true
+    scrollAnimation: true
   "exception-reporting":
     userId: "d3b9acef-e2f1-9921-109d-3b97e974183c"
   welcome:
@@ -14,17 +17,18 @@
   core:
     projectHome: "/home/andrew/Repos"
     themes: [
-      "one-dark-ui"
-      "monokai"
+      "atom-material-ui"
+      "base16-syntax"
     ]
     autoHideMenuBar: true
   "git-plus":
     openInPane: false
   editor:
     invisibles: {}
-    fontFamily: "Inconsolata for Powerline"
+    fontFamily: "Hack"
     showIndentGuide: true
-    fontSize: 18
+    fontSize: 15
+    zoomFontWhenCtrlScrolling: false
   autosave:
     enabled: true
   "autocomplete-plus":
@@ -39,36 +43,58 @@
     usePreviewTabs: true
   "linter-rubocop":
     rubocopExecutablePath: "/home/andrew/.rvm/gems/ruby-2.2.1/bin/rubocop"
+    executablePath: "/home/andrew/.rvm/gems/ruby-2.2.1/bin/rubocop"
   "SFTP-deployment": {}
+  "base16-syntax":
+    scheme: "Monokai"
+  "linter-ruby": {}
+  "markdown-writer":
+    fileExtension: ".md"
+    siteEngine: "jekyll"
+  "atom-material-ui":
+    accentColor: "Red"
+    rippleAccentColor: true
+  typewriter: {}
 ".js.rails.source source.jquery.js":
-  editor:
-    tabLength: 4
-".html.ruby.text":
-  editor:
-    tabLength: 2
-".basic.html.text":
-  editor:
-    tabLength: 2
-    preferredLineLength: 120
-".python.text.traceback":
-  editor:
-    tabLength: 4
-".console.python.text":
-  editor:
-    tabLength: 4
-".ruby.source.sql":
   editor:
     tabLength: 4
 ".erb.html.text":
   editor:
     tabLength: 2
-".cpp.source":
+    preferredLineLength: 81
+".ruby.source.sql":
   editor:
-    tabLength: 8
-".python.source":
+    tabLength: 4
+".console.python.text":
   editor:
-    preferredLineLength: 79
+    tabLength: 4
+".python.text.traceback":
+  editor:
+    tabLength: 4
+".basic.html.text":
+  editor:
+    tabLength: 2
+    preferredLineLength: 120
+".html.ruby.text":
+  editor:
+    tabLength: 2
+".gfm.source":
+  editor:
+    softWrapAtPreferredLineLength: true
+    softWrap: false
+".ruby.source":
+  editor:
+    preferredLineLength: 81
 ".java.source":
   editor:
     preferredLineLength: 120
     tabLength: 4
+".python.source":
+  editor:
+    preferredLineLength: 79
+".cpp.source":
+  editor:
+    tabLength: 8
+"source.gfm":
+  editor:
+    softWrap: true
