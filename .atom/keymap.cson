@@ -3,3 +3,22 @@
   'down': 'unset!'
   'ctrl-p': 'core:move-up'
   'ctrl-n': 'core:move-down'
+  
+'atom-text-editor:not(.mini)':
+   'alt': 'unset!'
+
+'.command-palette':
+   'ctrl-p': 'core:move-up'
+   'ctrl-n': 'core:move-down'
+
+'.fuzzy-finder':
+   'ctrl-p': 'core:move-up'
+   'ctrl-n': 'core:move-down'
+
+'.symbols-view':
+   'ctrl-p': 'core:move-up'
+   'ctrl-n': 'core:move-down'
+
+'body':
+  'alt-down': 'editor:add-selection-below'
+  'alt-up': 'editor:add-selection-above'

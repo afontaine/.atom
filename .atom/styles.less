@@ -1,0 +1,42 @@
+atom-text-editor::shadow .markup {
+  &.italic {
+    font-style: italic;
+  }
+  &.bold {
+    font-weight: bold;
+  }
+  &.list {
+    font-weight: bold;
+  }
+  &.underline {
+    text-decoration: none;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none solid none;
+  }
+  &.heading {
+    font-weight: normal;
+    position: relative;
+    &.heading-1 {
+      font-size: 135%;
+      bottom: 0.35em;
+      opacity: 1.0;
+    }
+    &.heading-2 {
+      font-size: 125%;
+      bottom: 0.25em;
+      opacity: 0.95;
+    }
+    &.heading-3 {
+      font-size: 115%;
+      bottom: 0.15em;
+      opacity: 0.90;
+    }
+    &.heading-4,
+    &.heading-5,
+    &.heading-6 {
+      font-size: 105%;
+      bottom: 0.05em;
+      opacity: 0.85;
+    }
+  }
+}

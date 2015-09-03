@@ -1,14 +1,15 @@
 "*":
-  linter: {}
   minimap:
     plugins:
       "git-diff": true
       selection: true
       "highlight-selected": true
       "find-and-replace": true
+      pigments: true
       codeglance: true
       "minimap-hide": true
-      pigments: true
+    absoluteMode: true
+    scrollAnimation: true
   "exception-reporting":
     userId: "d3b9acef-e2f1-9921-109d-3b97e974183c"
   welcome:
@@ -26,7 +27,8 @@
     invisibles: {}
     fontFamily: "Hack"
     showIndentGuide: true
-    fontSize: 16
+    fontSize: 14
+    zoomFontWhenCtrlScrolling: false
   autosave:
     enabled: true
   "autocomplete-plus":
@@ -46,6 +48,7 @@
     hideVcsIgnoredFiles: true
   "base16-syntax":
     scheme: "Monokai"
+  "linter-ruby": {}
   "atom-material-ui":
     depth: true
     compactTreeView: true
@@ -58,6 +61,7 @@
 ".erb.html.text":
   editor:
     tabLength: 2
+    preferredLineLength: 81
 ".ruby.source.sql":
   editor:
     tabLength: 4
@@ -74,6 +78,13 @@
 ".html.ruby.text":
   editor:
     tabLength: 2
+".gfm.source":
+  editor:
+    softWrapAtPreferredLineLength: true
+    softWrap: false
+".ruby.source":
+  editor:
+    preferredLineLength: 81
 ".java.source":
   editor:
     preferredLineLength: 120
@@ -84,10 +95,6 @@
 ".cpp.source":
   editor:
     tabLength: 8
-".gfm.source":
-  editor:
-    preferredLineLength: 120
-    tabLength: 4
 "source.gfm":
   editor:
     softWrap: true
