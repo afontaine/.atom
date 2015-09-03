@@ -9,7 +9,6 @@
       codeglance: true
       "minimap-hide": true
       pigments: true
-    absoluteMode: true
   "exception-reporting":
     userId: "d3b9acef-e2f1-9921-109d-3b97e974183c"
   welcome:
@@ -25,7 +24,7 @@
     openInPane: false
   editor:
     invisibles: {}
-    fontFamily: "Inconsolata for Powerline PNFT"
+    fontFamily: "Hack"
     showIndentGuide: true
     fontSize: 16
   autosave:
@@ -47,35 +46,48 @@
     hideVcsIgnoredFiles: true
   "base16-syntax":
     scheme: "Monokai"
+  "atom-material-ui":
+    depth: true
+    compactTreeView: true
+    rippleAccentColor: true
+    slimScrollbar: true
+  typewriter: {}
 ".js.rails.source source.jquery.js":
-  editor:
-    tabLength: 4
-".html.ruby.text":
-  editor:
-    tabLength: 2
-".basic.html.text":
-  editor:
-    tabLength: 2
-    preferredLineLength: 120
-".python.text.traceback":
-  editor:
-    tabLength: 4
-".console.python.text":
-  editor:
-    tabLength: 4
-".ruby.source.sql":
   editor:
     tabLength: 4
 ".erb.html.text":
   editor:
     tabLength: 2
-".cpp.source":
+".ruby.source.sql":
   editor:
-    tabLength: 8
-".python.source":
+    tabLength: 4
+".console.python.text":
   editor:
-    preferredLineLength: 79
+    tabLength: 4
+".python.text.traceback":
+  editor:
+    tabLength: 4
+".basic.html.text":
+  editor:
+    tabLength: 2
+    preferredLineLength: 120
+".html.ruby.text":
+  editor:
+    tabLength: 2
 ".java.source":
   editor:
     preferredLineLength: 120
     tabLength: 4
+".python.source":
+  editor:
+    preferredLineLength: 79
+".cpp.source":
+  editor:
+    tabLength: 8
+".gfm.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+"source.gfm":
+  editor:
+    softWrap: true
