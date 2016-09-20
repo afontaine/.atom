@@ -1,100 +1,105 @@
 "*":
-  minimap:
-    plugins:
-      "git-diff": true
-      selection: true
-      "highlight-selected": true
-      "find-and-replace": true
-      pigments: true
-      codeglance: true
-      "minimap-hide": true
-    absoluteMode: true
-    scrollAnimation: true
-  "exception-reporting":
-    userId: "d3b9acef-e2f1-9921-109d-3b97e974183c"
-  welcome:
-    showOnStartup: false
+  "SFTP-deployment": {}
+  "atom-beautify":
+    _analyticsUserId: "e9a5da2e-7d4f-42d0-9c47-5f6513663cc2"
+  "atom-material-ui": {}
+  "autocomplete-plus":
+    confirmCompletion: "tab"
+    includeCompletionsFromAllBuffers: true
+  autosave:
+    enabled: true
+  "base16-syntax":
+    scheme: "Monokai"
   core:
-    projectHome: "/home/andrew/Repos"
+    autoHideMenuBar: true
+    disabledPackages: [
+      "language-gfm"
+    ]
     themes: [
       "atom-material-ui"
       "base16-syntax"
     ]
-    autoHideMenuBar: true
+  editor:
+    fontFamily: "Hack"
+    fontSize: 15
+    invisibles: {}
+    showIndentGuide: true
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "d3b9acef-e2f1-9921-109d-3b97e974183c"
   "git-plus":
     openInPane: false
-  editor:
-    invisibles: {}
-    fontFamily: "Hack"
-    showIndentGuide: true
-    fontSize: 15
-    zoomFontWhenCtrlScrolling: false
-  autosave:
-    enabled: true
-  "autocomplete-plus":
-    includeCompletionsFromAllBuffers: true
-    confirmCompletion: "tab"
-  "linter-tslint": {}
-  "remote-edit": {}
-  "atom-beautify":
-    _analyticsUserId: "e9a5da2e-7d4f-42d0-9c47-5f6513663cc2"
-  tabs:
-    showIcons: true
-    usePreviewTabs: true
-  "linter-rubocop":
-    rubocopExecutablePath: "/home/andrew/.rvm/gems/ruby-2.2.1/bin/rubocop"
-    executablePath: "/home/andrew/.rvm/gems/ruby-2.2.1/bin/rubocop"
-  "SFTP-deployment": {}
-  "base16-syntax":
-    scheme: "Monokai"
+  "linter-rubocop": {}
   "linter-ruby": {}
+  "linter-tslint": {}
   "markdown-writer":
     fileExtension: ".md"
     siteEngine: "jekyll"
-  "atom-material-ui":
-    accentColor: "Red"
-    rippleAccentColor: true
+  minimap:
+    absoluteMode: true
+    plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      "minimap-hide": true
+      "minimap-hideDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+      selection: true
+      selectionDecorationsZIndex: 0
+    scrollAnimation: true
+  "remote-edit": {}
+  tabs:
+    showIcons: true
+    usePreviewTabs: true
   typewriter: {}
-".js.rails.source source.jquery.js":
+  welcome:
+    showOnStartup: false
+".basic.html.text":
   editor:
-    tabLength: 4
-".erb.html.text":
-  editor:
+    preferredLineLength: 120
     tabLength: 2
-    preferredLineLength: 81
-".ruby.source.sql":
-  editor:
-    tabLength: 4
 ".console.python.text":
   editor:
     tabLength: 4
-".python.text.traceback":
+".cpp.source":
   editor:
-    tabLength: 4
-".basic.html.text":
+    tabLength: 8
+".erb.html.text":
   editor:
-    tabLength: 2
-    preferredLineLength: 120
-".html.ruby.text":
-  editor:
+    preferredLineLength: 81
     tabLength: 2
 ".gfm.source":
   editor:
-    softWrapAtPreferredLineLength: true
     softWrap: false
-".ruby.source":
+    softWrapAtPreferredLineLength: true
+".html.ruby.text":
   editor:
-    preferredLineLength: 81
+    tabLength: 2
 ".java.source":
   editor:
     preferredLineLength: 120
     tabLength: 4
+".js.rails.source source.jquery.js":
+  editor:
+    tabLength: 4
 ".python.source":
   editor:
     preferredLineLength: 79
-".cpp.source":
+".python.text.traceback":
   editor:
-    tabLength: 8
+    tabLength: 4
+".ruby.source":
+  editor:
+    preferredLineLength: 81
+".ruby.source.sql":
+  editor:
+    tabLength: 4
 "source.gfm":
   editor:
     softWrap: true
