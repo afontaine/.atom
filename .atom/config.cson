@@ -1,8 +1,32 @@
 "*":
   "SFTP-deployment": {}
   "atom-beautify":
-    _analyticsUserId: "e9a5da2e-7d4f-42d0-9c47-5f6513663cc2"
-  "atom-material-ui": {}
+    general:
+      _analyticsUserId: "e9a5da2e-7d4f-42d0-9c47-5f6513663cc2"
+    html:
+      indent_size: 2
+    js:
+      indent_size: 2
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 128
+        green: 222
+        blue: 234
+        alpha: 1
+      accentColor:
+        red: 82
+        green: 140
+        blue: 148
+        alpha: 1
+      predefinedColor: "Cyan"
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
   "autocomplete-plus":
     confirmCompletion: "tab"
     includeCompletionsFromAllBuffers: true
